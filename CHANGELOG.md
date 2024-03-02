@@ -1,5 +1,33 @@
 # Changelog
 
+## [2.1.0](https://github.com/ublue-os/bluefin/compare/v2.0.0...v2.1.0) (2024-03-02)
+
+
+### Features
+
+* Add Explicit sync patches for XWayland on Nvidia builds ([#993](https://github.com/ublue-os/bluefin/issues/993)) ([025b662](https://github.com/ublue-os/bluefin/commit/025b6627f5f57b98abd38338671ab5d7d57c3e97))
+* add meslo nerd font ([#967](https://github.com/ublue-os/bluefin/issues/967)) ([ce88078](https://github.com/ublue-os/bluefin/commit/ce880781fd5d223403de4e18f99f98f3253bbfe2))
+* add zsh config file ([#963](https://github.com/ublue-os/bluefin/issues/963)) ([1ae2f30](https://github.com/ublue-os/bluefin/commit/1ae2f3094cfaf5a581a89a440a2cb77507a9dcda))
+* change to spring wallpaper ([#987](https://github.com/ublue-os/bluefin/issues/987)) ([5ab4e1c](https://github.com/ublue-os/bluefin/commit/5ab4e1c176caa172355defa4fa910313b9758b4e))
+* Update isogenerator to latest version ([#968](https://github.com/ublue-os/bluefin/issues/968)) ([8242907](https://github.com/ublue-os/bluefin/commit/8242907c30e0e6b0f3c6263be192c077c91ea417))
+
+
+### Bug Fixes
+
+* change ctrl-alt-enter to host term ([#970](https://github.com/ublue-os/bluefin/issues/970)) ([6b669aa](https://github.com/ublue-os/bluefin/commit/6b669aa430cae0450af872253759fbb4ceb07760))
+* check for directory, not command ([#980](https://github.com/ublue-os/bluefin/issues/980)) ([c64eb03](https://github.com/ublue-os/bluefin/commit/c64eb03626f522e525d0206a588e351c573bc7b5))
+* check for directory, not command ([#991](https://github.com/ublue-os/bluefin/issues/991)) ([56d68e9](https://github.com/ublue-os/bluefin/commit/56d68e92dc13d0dce4547c80c330c80fe075b59a))
+* **ci:** fixing issues with mokutil password ([#969](https://github.com/ublue-os/bluefin/issues/969)) ([0c89938](https://github.com/ublue-os/bluefin/commit/0c899382fd8c62007459c88f297634a912979a2f))
+* correct ulimit nofile issue with brew ([#988](https://github.com/ublue-os/bluefin/issues/988)) ([3911e57](https://github.com/ublue-os/bluefin/commit/3911e57908f204b5930e0ee99f5411b1a554ec1a))
+* Delete sysctl maximum file limits workaround ([#979](https://github.com/ublue-os/bluefin/issues/979)) ([f237cef](https://github.com/ublue-os/bluefin/commit/f237cefd309202d958705dd9d5ae42f6076a16b4))
+* Increase Nofile limit to fix installation of some brew application ([#985](https://github.com/ublue-os/bluefin/issues/985)) ([fbed7bd](https://github.com/ublue-os/bluefin/commit/fbed7bd07a8786611881423f400dcf17373ea1b3))
+* increase soft and hard file limits ([#978](https://github.com/ublue-os/bluefin/issues/978)) ([8eb9f3f](https://github.com/ublue-os/bluefin/commit/8eb9f3f6bbed75377b10976933841647be65ba59))
+* Make this check if brew is installed before trying to run it. ([#975](https://github.com/ublue-os/bluefin/issues/975)) ([c0a2cfb](https://github.com/ublue-os/bluefin/commit/c0a2cfb06abee26b1769a67ca5d3978e010c5d0d))
+* Only run brew for interactive fish shells ([#959](https://github.com/ublue-os/bluefin/issues/959)) ([9375d8e](https://github.com/ublue-os/bluefin/commit/9375d8e90b723fb71e7eea71be50be9317a3649d))
+* remove quotes around level ([#981](https://github.com/ublue-os/bluefin/issues/981)) ([968b17f](https://github.com/ublue-os/bluefin/commit/968b17faceb9ff39a04634c7b723aa0e9283991e))
+* replace profile brew.sh on just brew command ([#984](https://github.com/ublue-os/bluefin/issues/984)) ([874a5d2](https://github.com/ublue-os/bluefin/commit/874a5d299fee6a36bd38a1bb1eb56cfab4d5235f))
+* turn off audible bell in the terminal ([#992](https://github.com/ublue-os/bluefin/issues/992)) ([6177f02](https://github.com/ublue-os/bluefin/commit/6177f0275ab464b7783e36dfe5b9a305b0e321c6))
+
 ## [2.0.0](https://github.com/ublue-os/bluefin/compare/v1.2.0...v2.0.0) (2024-02-28)
 
 
